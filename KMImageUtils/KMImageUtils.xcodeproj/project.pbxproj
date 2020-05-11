@@ -22,6 +22,7 @@
 		3B061F2F2466C018009DBDD3 /* KMConverter+CVPixelBuffer_UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B061F2E2466C018009DBDD3 /* KMConverter+CVPixelBuffer_UIImage.m */; };
 		3B061F322466C112009DBDD3 /* KMConverter+CVPixelBuffer_RawData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B061F312466C112009DBDD3 /* KMConverter+CVPixelBuffer_RawData.m */; };
 		3B061F352466C57A009DBDD3 /* KMConverter+CGImageRef_RawData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B061F342466C57A009DBDD3 /* KMConverter+CGImageRef_RawData.m */; };
+		3BCEC21424694C7A00BD0C10 /* KMConverter+UIImage_RawData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCEC21324694C7A00BD0C10 /* KMConverter+UIImage_RawData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		3B061F312466C112009DBDD3 /* KMConverter+CVPixelBuffer_RawData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KMConverter+CVPixelBuffer_RawData.m"; sourceTree = "<group>"; };
 		3B061F332466C57A009DBDD3 /* KMConverter+CGImageRef_RawData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KMConverter+CGImageRef_RawData.h"; sourceTree = "<group>"; };
 		3B061F342466C57A009DBDD3 /* KMConverter+CGImageRef_RawData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KMConverter+CGImageRef_RawData.m"; sourceTree = "<group>"; };
+		3BCEC21224694C7A00BD0C10 /* KMConverter+UIImage_RawData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KMConverter+UIImage_RawData.h"; sourceTree = "<group>"; };
+		3BCEC21324694C7A00BD0C10 /* KMConverter+UIImage_RawData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KMConverter+UIImage_RawData.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				3B061F312466C112009DBDD3 /* KMConverter+CVPixelBuffer_RawData.m */,
 				3B061F332466C57A009DBDD3 /* KMConverter+CGImageRef_RawData.h */,
 				3B061F342466C57A009DBDD3 /* KMConverter+CGImageRef_RawData.m */,
+				3BCEC21224694C7A00BD0C10 /* KMConverter+UIImage_RawData.h */,
+				3BCEC21324694C7A00BD0C10 /* KMConverter+UIImage_RawData.m */,
 			);
 			path = KMImageUtils;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				3B061F292466B86C009DBDD3 /* KMConverter.m in Sources */,
 				3B061EFC246698A8009DBDD3 /* ViewController.m in Sources */,
 				3B061EF6246698A8009DBDD3 /* AppDelegate.m in Sources */,
+				3BCEC21424694C7A00BD0C10 /* KMConverter+UIImage_RawData.m in Sources */,
 				3B061F07246698AA009DBDD3 /* main.m in Sources */,
 				3B061F2F2466C018009DBDD3 /* KMConverter+CVPixelBuffer_UIImage.m in Sources */,
 				3B061F192466995D009DBDD3 /* KMImageUtils.m in Sources */,

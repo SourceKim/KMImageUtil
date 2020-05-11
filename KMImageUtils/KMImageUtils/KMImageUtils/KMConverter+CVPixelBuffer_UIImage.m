@@ -14,7 +14,7 @@
     
     CGImageRef cgImage = image.CGImage;
     CVPixelBufferRef buf = [KMConverter KM_CGImage_To_CVPixelBuffer: cgImage];
-    CGImageRelease(cgImage);
+//    CGImageRelease(cgImage);
     return buf;
 }
 
@@ -22,7 +22,7 @@
     
     CGImageRef cgImage = [KMConverter KM_CVPixelBuffer_To_CGImage: pixelBuffer];
     UIImage *uiImage = [UIImage imageWithCGImage: cgImage];
-    CGImageRelease(cgImage);
+//    CGImageRelease(cgImage);
     return uiImage;
 }
 
@@ -30,7 +30,7 @@
     
     CGImageRef cgImage = [KMConverter KM_CVPixelBuffer_To_CGImage2: pixelBuffer];
     UIImage *uiImage = [UIImage imageWithCGImage: cgImage];
-    CGImageRelease(cgImage);
+//    CGImageRelease(cgImage);
     return uiImage;
 }
 

@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
                                           width: (size_t)width
                                          height: (size_t)height;
 
+/// Convert from CGImageRef to Raw Data
+/// @param pixelBuffer Buffer to be converted
 + (void *)KM_CVPixelBuffer_To_RawData: (CVPixelBufferRef)pixelBuffer;
 
 @end

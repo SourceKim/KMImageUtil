@@ -12,4 +12,8 @@
 
 #import "KMConverter+CVPixelBuffer_UIImage.h"
 
+#import "KMConverter+CVPixelBuffer_RawData.h"
+
+#import "KMConverter+CGImageRef_RawData.h"
+
 #endif /* KMImageUtilsHeader_h */
